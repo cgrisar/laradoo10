@@ -1,0 +1,28 @@
+{
+    "name": "cgrisar/laradoo",
+    "description": "Odoo ERP API for Laravel",
+    "keywords": ["odoo","laravel","erp","package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Charles Grisar",
+            "email": "charles.grisar@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Cgrisar\\Laradoo\\": "src/"
+      },
+      "files": [
+          "src/Support/helpers.php"
+      ],
+      "classmap": ["src/ripcord"]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0"
+    },
+    "require-dev": {
+    }
+}
